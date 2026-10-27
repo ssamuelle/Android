@@ -52,7 +52,7 @@ public class Skola implements Info {
         }
         System.out.println("Pocet ziakov: " + ziaci.size());
         for (Ziak z : ziaci) {
-            System.out.println("-----;;;");
+            System.out.println("-----");
             z.info();
         }
     }
