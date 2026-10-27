@@ -124,7 +124,7 @@ public class Main {
         if (najdeni.isEmpty()) {
             System.out.println("Ziak sa nenasiel.");
         } else {
-            for (Ziak z : najdeni) {
+            for (Ziak z : najdeni) { 
                 System.out.println("-----");
                 z.info();
             }
